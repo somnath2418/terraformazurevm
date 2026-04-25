@@ -9,8 +9,8 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "tf-backend-rg"
-    storage_account_name = "tfbackendstorage123"
+    resource_group_name  = "tfstate-rg"
+    storage_account_name = "somseema23tf"
     container_name       = "tfstate"
     key                  = "windows-vm.tfstate"
   }
