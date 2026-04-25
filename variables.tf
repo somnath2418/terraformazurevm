@@ -3,8 +3,16 @@ variable "tenant_id" {}
 variable "location" { default = "East US" }
 
 variable "rg_name" {}
-variable "vnet_name" {}
-variable "subnet_name" {}
+
+variable "vnet_name" {
+  type    = string
+  default = "dummy-vnet"
+}
+
+variable "subnet_name" {
+  type    = string
+  default = "dummy-subnet"
+}
 variable "vm_name" {}
 variable "admin_username" {}
 variable "admin_password" {
