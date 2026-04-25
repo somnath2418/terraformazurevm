@@ -1,0 +1,8 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# KEEP lock file
+!.terraform.lock.hcl
+
+*.tfvars
