@@ -1,6 +1,6 @@
 variable "subscription_id" {}
 variable "tenant_id" {}
-variable "location" { default = "East US" }
+variable "location" { default = "Central India" }
 
 variable "rg_name" {}
 
